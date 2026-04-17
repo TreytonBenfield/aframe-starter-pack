@@ -11,6 +11,7 @@
       <a-assets>
         <a-asset-item id="fence" src="Assets/Fence_GameReady.obj"></a-asset-item>
         <a-asset-item id="hut" src="Assets/ForestHut_GameReady.obj"></a-asset-item>
+        <img id="background" src="Assets/49767072781_36d1dd0324_c.jpg">
         <img id="selfie" src="Assets/B26FF4A7-0C17-4848-A810-21667A7588B3_1_105_c.jpeg">
         <img id="tex5" src="assets/texture5.jpg">
         <img id="tex3" src="assets/texture3.jpg">
@@ -20,14 +21,11 @@
       
 
       
-      <a-obj-model src="#fence" position="0 0 0" scale="1 1 1" color="brown"></a-obj-model>
+      <a-obj-model src="#fence" position="0 0 -4" scale="1 1 1" color="brown"></a-obj-model>
       
-      <a-obj-model src="#hut" position="3 0 0" scale="1 1 1" color="green"></a-obj-model>
-      <a-box src="#selfie" position="-2 0.5 -4"></a-box>
-      <a-sphere src="#selfie" radius="0.5" position="0 0.5 -3"></a-sphere>
-      <a-cone src="#tex3" height="2" radius-top="0.1" position="0 1 -6"></a-cone>
-      <a-box src="#tex5" position="2 0.5 -4"></a-box>
-
+      <a-obj-model src="#hut" position="0 0 -6" scale="1 1 1" color="green"></a-obj-model>
+  
+      <a-sky src="#background"></a-sky>
       <a-plane src="#tex1" rotation="-90 0 0" height="100" width="100"></a-plane>
 
       <a-light type="ambient" color="#445451"></a-light>
